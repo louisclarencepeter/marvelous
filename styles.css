@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 97vh;
+  height: 100vh;
   flex-direction: column;
   position: relative;
   background-image: url("./images/DSC_2030.jpg");
@@ -30,10 +30,10 @@ body {
 h3 {
   color: #539683;
   font-family: 'Moon Dance', cursive;
-  font-size: 50px;
+  font-size: 35px;
   position: absolute;
-  top: 10px;
-  left: 30px;;
+  top: 35px;
+  left: 10px;;
   margin: 1rem;
   z-index: 1;
   transform: rotate(-40deg);
