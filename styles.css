@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat/static/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moon Dance';
+  src: url('./fonts/Moon_Dance/MoonDance-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Moon Dance', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  flex-direction: column;
+  position: relative;
+  background-image: url("./images/DSC_2030.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h3 {
+  color: #539683;
+  font-family: 'Moon Dance', cursive;
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 30px;;
+  margin: 1rem;
+  z-index: 1;
+  transform: rotate(-40deg);
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  opacity: 0.9;
+}
+
+h1 {
+  color: #539683;
+  font-style: 'Montserrat';
+}
+
+p {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.moto {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.contact {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+i {
+  color: #539683;
+  font-size: 2rem;
+}
+
+i:hover {
+  color: #665;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #ffffff;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner h2 {
+  margin: 0;
+  color: #383423;
+  font-style: 'Montserrat';
+}
+
+.banner p {
+  margin: 0 0 0 0.5rem;
+  color: #383423;
+  font-style: normal;
+  font-weight: normal;
+}
