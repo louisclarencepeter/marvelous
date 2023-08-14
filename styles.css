@@ -22,7 +22,7 @@ body {
   height: 100vh;
   flex-direction: column;
   position: relative;
-  background-image: url("./images/DSC_2030.jpg");
+  background-image: url("./images/small.jpg");
   background-size: cover;
   background-position: center;
 }
