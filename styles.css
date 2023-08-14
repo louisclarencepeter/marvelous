@@ -12,6 +12,11 @@
   font-style: normal;
 }
 
+html, body {
+  height : 100%;
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', 'Moon Dance', sans-serif;
@@ -19,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 97vh;
+  height: 98%;
   flex-direction: column;
   position: relative;
   background-image: url("./images/small.jpg");
