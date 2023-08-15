@@ -4,17 +4,16 @@ Welcome to the Marvelous Boutique Hotel project! This repository contains the co
 
 ## Description
 
-The Marvelous Boutique Hotel is a tranquil oasis located in Zanzibar. This project showcases an under construction page that provides information about the hotel's website upcoming launch, its features, and a countdown timer until the launch date.
+The Marvelous Boutique Hotel is a tranquil oasis located in Zanzibar. This project showcases an under construction page that provides information about the hotel's website upcoming launch.
 
 ## Files
 
 - `index.html`: The HTML file that defines the structure and content of the under construction page.
 - `styles.css`: The CSS file that styles the appearance of the under construction page.
-- `script.js`: The JavaScript file that manages the countdown timer and updates the content dynamically.
 
 ## Usage
 
-Simply open the `index.html` file in a web browser to view the under construction page. The page will display information about the hotel's upcoming launch, its features, and a countdown timer.
+Simply open the `index.html` file in a web browser to view the under construction page.
 
 ## Contributors
 

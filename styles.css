@@ -49,11 +49,24 @@ h2 {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    margin: 20px auto; 
-    position: relative;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "header header header"
+    "cardcontainer cardcontainer cardcontainer";
+  grid-gap: 20px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.cardcontainer {
+  grid-area: cardcontainer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .cards {
@@ -67,6 +80,10 @@ h2 {
   align-items: center;
   padding: 1rem;
   position: absolute;
+}
+
+.header {
+  grid-area: header;
 }
 
 h2 {
