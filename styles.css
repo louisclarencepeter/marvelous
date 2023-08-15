@@ -44,7 +44,7 @@ h1 {
 
 .banner {
   width: 100%;
-  height: 5rem;
+  height: 4rem;
   background-color: #ffffff;
   opacity: 0.5;
   display: flex;
@@ -68,7 +68,8 @@ h2 {
 }
 
 .container {
-  transform: translateX(-4rem);
+  transform: translateX(-3rem);
+  margin-top: -4rem;
 }
 
 .header {
