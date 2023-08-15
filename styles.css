@@ -153,6 +153,14 @@ img {
 
 /*Resposiveness */
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  body{
+    height: 90vh;
+  }
+  
+}
+
 @media (min-width: 768px) {
   body {
     height: 95vh;
