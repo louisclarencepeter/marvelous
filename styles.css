@@ -151,9 +151,24 @@ img {
   z-index: 99;
 }
 
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  bottom: -10rem;
+  left: 6rem;
+  gap: 1rem;
+}
+
+i {
+  font-size: 1.5rem;
+  color: white;
+}
+
 /* Functionality */
 
-.cards.show-card {
+/* .cards.show-card {
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.5s ease-in-out forwards;
@@ -169,7 +184,7 @@ img {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
 
 /*Resposiveness */
