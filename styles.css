@@ -70,7 +70,7 @@ h2 {
 
 .container {
   transform: translateX(-2.5rem);
-  margin-top: -4rem;
+  margin-top: -7rem;
 }
 
 .header {
@@ -206,7 +206,7 @@ i:hover {
 @media screen and (min-width: 400px) and (max-width: 750px) {
 
   body {
-    height: 85vh;
+    height: 87vh;
   }
 
 
