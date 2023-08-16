@@ -34,6 +34,7 @@ body {
   padding-top: 7rem;
 }
 
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -68,12 +69,13 @@ h2 {
 }
 
 .container {
-  transform: translateX(-4.5rem);
+  transform: translateX(-2.5rem);
   margin-top: -4rem;
 }
 
 .header {
   margin: 3rem;
+  padding-right: 3.5rem;
 }
 
 .cardcontainer {
@@ -85,20 +87,18 @@ h2 {
   background-color: white;
   height: 10rem;
   width: 7rem;
-  gap: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   position: absolute;
 }
 
 
 .card1 {
-  transform: rotate(23deg);
+  transform: rotate(15deg);
   top: 6rem;
-  left: 4rem;
+  left: 4.5rem;
   z-index: 2;
 }
 
@@ -110,7 +110,7 @@ h2 {
 }
 
 .card3 {
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
   top: -1rem;
   left: 10rem;
 }
@@ -122,9 +122,9 @@ h2 {
 }
 
 .card5 {
-  transform: rotate(15deg);
+  transform: rotate(10deg);
   top: 6rem;
-  left: 17rem;
+  left: 16rem;
   z-index: 1;
 }
 
@@ -136,6 +136,7 @@ h2 {
   font-weight: 400;
   color: #539683;
   text-align: center;
+  padding: 0.5rem;
 }
 
 img {
@@ -164,6 +165,11 @@ img {
 i {
   font-size: 2rem;
   color: white;
+}
+
+i:hover {
+  color: #539683;
+  transition: color 0.5s ease-in-out;
 }
 
 /* Functionality */
