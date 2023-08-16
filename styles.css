@@ -151,6 +151,26 @@ img {
   z-index: 99;
 }
 
+/* Functionality */
+
+.cards.show-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 /*Resposiveness */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
