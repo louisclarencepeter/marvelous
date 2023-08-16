@@ -164,7 +164,7 @@ img {
 @media screen and (min-width: 400px) and (max-width: 750px) {
 
   body {
-    height: 87vh;
+    height: 85vh;
   }
 
 
@@ -172,7 +172,7 @@ img {
 
 @media (min-width: 768px) {
   body {
-    height: 85vh;
+    height: 83vh;
     padding-top: 0;
   }
 
