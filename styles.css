@@ -14,8 +14,15 @@
 }
 
 @font-face {
-  font-family: 'Brit';
-  src: url('./fonts/SpaceMono/SpaceMono-Regular.ttf') format('truetype');
+  font-family: 'Brittany';
+  src: url('./fonts/Brittany/BrittanyRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TanMonCheri';
+  src: url('./fonts/TanMonCheri/TanMonCheri.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
