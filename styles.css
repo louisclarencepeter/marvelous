@@ -253,18 +253,14 @@ i:hover {
   }
 
   .container {
-    transform: translateX(-3rem);
-    margin-top: -9rem;
+    margin-left: -26rem;
+    margin-top: -18rem;
+    padding:0rem;
   }
 
   .header {
-    margin: 3rem;
-  }
-
-  .cardcontainer {
-    display: flex;
-    position: relative;
-    width: 100%;
+    margin-left: -15rem;
+    margin-top: 1rem;
   }
 
 
