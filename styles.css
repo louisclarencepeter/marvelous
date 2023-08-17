@@ -84,13 +84,14 @@ h2 {
 }
 
 .container {
-  transform: translateX(-2.5rem);
-  margin-top: -7rem;
+  margin-left: -26rem;
+  margin-top: -15rem;
+  padding: 10rem;
 }
 
 .header {
-  margin: 3rem;
-  padding-right: 3.5rem;
+margin-left: -7rem;
+margin-top: -5rem;
 }
 
 .cardcontainer {
@@ -182,7 +183,7 @@ img {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  bottom: -10rem;
+  bottom: -5rem;
   left: 6rem;
   gap: 1rem;
 }
@@ -222,16 +223,137 @@ i:hover {
 
 @media screen and (min-width: 390px) {
 
-    body {
-    height: 85vh;
+  body {
+    height: 95vh;
   }
-
 }
+
+
 
 @media screen and (min-width: 768px) {
 
   body {
-    height: 89vh;
+    height: 95vh;
+  }
+
+  .banner {
+    height: 5rem;
+  }
+
+  .banner p {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .container {
+    transform: translateX(-3rem);
+    margin-top: -9rem;
+  }
+
+  .header {
+    margin: 3rem;
+  }
+
+  .cardcontainer {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+
+
+  .cards {
+    background-color: white;
+    height: 12rem;
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+
+  .cardq {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  .card1 {
+    transform: rotate(15deg);
+    top: 14rem;
+    left: 2rem;
+    z-index: 2;
+  }
+
+  .card2 {
+    transform: rotate(-20deg);
+    top: 17rem;
+    left: 10rem;
+    z-index: 1;
+  }
+
+  .card3 {
+    transform: rotate(-10deg);
+    top: 4rem;
+    left: 8rem;
+  }
+
+  .card4 {
+    transform: rotate(10deg);
+    top: 3rem;
+    left: 17rem;
+  }
+
+  .card5 {
+    transform: rotate(10deg);
+    top: 14rem;
+    left: 19rem;
+    z-index: 1;
+  }
+
+  .cards p {
+    align-self: self-end;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  img {
+    width: 7rem;
+    height: 8rem;
+    padding: 0rem 0.1rem 0 0.1rem;
+    object-fit: cover;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: -13rem;
+    left: 9rem;
+    gap: 1rem;
+  }
+
+  i {
+    font-size: 2.5rem;
+    color: white;
   }
 
 }
