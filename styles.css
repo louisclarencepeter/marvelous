@@ -39,7 +39,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
