@@ -13,6 +13,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Brit';
+  src: url('./fonts/SpaceMono/SpaceMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   font-size: calc(1rem + 0.5vw, 1.5rem);
   font-family: 'Space Mono', monospace;
