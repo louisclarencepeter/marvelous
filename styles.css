@@ -223,9 +223,9 @@ i:hover {
 @media screen and (min-width: 390px) {
 
     body {
-    height: 90vh;
+    height: 85vh;
   }
-  
+
 }
 
 @media screen and (min-width: 768px) {
