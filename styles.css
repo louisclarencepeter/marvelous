@@ -205,11 +205,11 @@ i:hover {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
-  
-    body {
-      height: 90vh;
-    }
-  
+
+  body {
+    height: 90vh;
+  }
+
 }
 
 @media screen and (min-width: 400px) and (max-width: 750px) {

@@ -22,4 +22,3 @@ This project was created by Louis Peter and is open for contributions. Feel free
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
