@@ -228,7 +228,113 @@ i:hover {
   }
 }
 
+@media screen and (min-width: 425px) {
 
+  body {
+    height: 88vh;
+  }
+
+  .banner {
+    height: 4.5rem;
+  }
+
+  .banner p {
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    margin-left: -26rem;
+    margin-top: -15rem;
+    padding: 10rem;
+  }
+
+  .header {
+    margin-left: -7rem;
+    margin-top: -5rem;
+  }
+
+  .cards {
+    background-color: white;
+    height: 9rem;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+
+  .cardq {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  .card1 {
+    transform: rotate(15deg);
+    top: 6rem;
+    left: 4.5rem;
+    z-index: 2;
+  }
+
+  .card2 {
+    transform: rotate(-20deg);
+    top: 9rem;
+    left: 10rem;
+    z-index: 1;
+  }
+
+  .card3 {
+    transform: rotate(-10deg);
+    top: -1rem;
+    left: 10rem;
+  }
+
+  .card4 {
+    transform: rotate(10deg);
+    top: -4rem;
+    left: 16rem;
+  }
+
+  .card5 {
+    transform: rotate(10deg);
+    top: 6rem;
+    left: 16rem;
+    z-index: 1;
+  }
+
+  .cards p {
+    align-self: self-end;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  img {
+    width: 5rem;
+    height: 6rem;
+    padding: 0rem 0.1rem 0 0.1rem;
+    object-fit: cover;
+  }
+  
+}
 
 @media screen and (min-width: 768px) {
 
