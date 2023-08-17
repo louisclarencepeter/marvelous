@@ -224,14 +224,14 @@ i:hover {
 @media screen and (min-width: 390px) {
 
   body {
-    height: 87vh;
+    height: 86vh;
   }
 }
 
 @media screen and (min-width: 425px) {
 
   body {
-    height: 88vh;
+    height: 87vh;
   }
 
   .banner {
