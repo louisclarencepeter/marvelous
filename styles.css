@@ -13,13 +13,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Meow Script';
-  src: url('./fonts/Meow_Script/MeowScript-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 :root {
   font-size: calc(1rem + 0.5vw, 1.5rem);
   font-family: 'Space Mono', monospace;
@@ -203,12 +196,20 @@ i:hover {
 
 /*Resposiveness */
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
 
   body {
-    height: 90vh;
+    height: 95vh;
   }
 
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3) {
+  
+    body {
+      height: 90vh;
+    }
+  
 }
 
 @media screen and (min-width: 400px) and (max-width: 750px) {
