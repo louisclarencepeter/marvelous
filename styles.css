@@ -90,8 +90,8 @@ h2 {
 }
 
 .header {
-margin-left: -7rem;
-margin-top: -5rem;
+  margin-left: -7rem;
+  margin-top: -5rem;
 }
 
 .cardcontainer {
@@ -333,7 +333,7 @@ i:hover {
     padding: 0rem 0.1rem 0 0.1rem;
     object-fit: cover;
   }
-  
+
 }
 
 @media screen and (min-width: 768px) {
@@ -361,7 +361,7 @@ i:hover {
   .container {
     margin-left: -36rem;
     margin-top: -18rem;
-    padding:0rem;
+    padding: 0rem;
   }
 
   .header {
@@ -482,7 +482,232 @@ i:hover {
   .container {
     margin-left: -36rem;
     margin-top: -29rem;
-    padding:0rem;
+    padding: 0rem;
+  }
+
+  .header {
+    margin-left: -28rem;
+    margin-top: 4rem;
+  }
+
+  .cards {
+    background-color: white;
+    height: 18rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+
+  .cardq {
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  .card1 {
+    transform: rotate(8deg);
+    top: 21rem;
+    left: -7rem;
+    z-index: 2;
+  }
+
+  .card2 {
+    transform: rotate(-20deg);
+    top: 25rem;
+    left: 7rem;
+    z-index: 1;
+  }
+
+  .card3 {
+    transform: rotate(-20deg);
+    top: 7rem;
+    left: 6rem;
+  }
+
+  .card4 {
+    transform: rotate(10deg);
+    top: 0rem;
+    left: 20rem;
+  }
+
+  .card5 {
+    transform: rotate(12deg);
+    top: 18rem;
+    left: 21rem;
+    z-index: 1;
+  }
+
+  .cards p {
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #024663;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  img {
+    width: 13rem;
+    height: 12rem;
+    padding: 0rem 0.1rem 0 0.1rem;
+    object-fit: cover;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: -20rem;
+    left: 9rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+
+  body {
+    height: 95vh;
+  }
+
+  .banner {
+    height: 5rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .container {
+    margin-left: -36rem;
+    margin-top: -27rem;
+    padding: 0rem;
+  }
+
+  .header {
+    margin-left: -37rem;
+    margin-top: -5rem;
+  }
+
+  .cards {
+    background-color: white;
+    height: 15rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+  }
+
+  .cardq {
+    font-weight: 400;
+    color: #024663;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  .card1 {
+    transform: rotate(8deg);
+    top: 20rem;
+    left: -5rem;
+    z-index: 2;
+  }
+
+  .card2 {
+    transform: rotate(-20deg);
+    top: 22rem;
+    left: 7rem;
+    z-index: 1;
+  }
+
+  .card3 {
+    transform: rotate(-20deg);
+    top: 8rem;
+    left: 6rem;
+  }
+
+  .card4 {
+    transform: rotate(10deg);
+    top: 3rem;
+    left: 17rem;
+  }
+
+  .card5 {
+    transform: rotate(20deg);
+    top: 18rem;
+    left: 19rem;
+    z-index: 1;
+  }
+
+  .cards p {
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #024663;
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Brittany', sans-serif;
+  }
+
+  img {
+    width: 10rem;
+    height: 11rem;
+    padding: 0rem 0.1rem 0 0.1rem;
+    object-fit: cover;
+
+  }
+
+  .icons {
+    bottom: -16rem;
+    left: 20rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  body {
+    height: 95vh;
+  }
+
+  .banner {
+    height: 7rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  .container {
+    margin-left: -36rem;
+    margin-top: -29rem;
+    padding: 0rem;
   }
 
   .header {
@@ -570,5 +795,9 @@ i:hover {
     gap: 1rem;
   }
 
-}
+  i {
+    font-size: 3.5rem;
+    color: white;
+  }
 
+}
