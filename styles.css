@@ -359,21 +359,21 @@ i:hover {
   }
 
   .container {
-    margin-left: -26rem;
+    margin-left: -36rem;
     margin-top: -18rem;
     padding:0rem;
   }
 
   .header {
-    margin-left: -15rem;
-    margin-top: 1rem;
+    margin-left: -25rem;
+    margin-top: 5rem;
   }
 
 
   .cards {
     background-color: white;
-    height: 12rem;
-    width: 9rem;
+    height: 15rem;
+    width: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -382,7 +382,7 @@ i:hover {
   }
 
   .cardq {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;
     color: #024663;
     text-align: center;
@@ -392,53 +392,51 @@ i:hover {
 
   .card1 {
     transform: rotate(15deg);
-    top: 14rem;
-    left: 2rem;
+    top: 18rem;
+    left: -1rem;
     z-index: 2;
   }
 
   .card2 {
     transform: rotate(-20deg);
-    top: 17rem;
+    top: 19rem;
     left: 10rem;
     z-index: 1;
   }
 
   .card3 {
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     top: 4rem;
     left: 8rem;
   }
 
   .card4 {
     transform: rotate(10deg);
-    top: 3rem;
-    left: 17rem;
+    top: -1rem;
+    left: 18rem;
   }
 
   .card5 {
     transform: rotate(10deg);
     top: 14rem;
-    left: 19rem;
+    left: 21rem;
     z-index: 1;
   }
 
   .cards p {
-    align-self: self-end;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #024663;
-    text-align: center;
     padding: 0rem;
     margin: 0rem;
     font-family: 'Brittany', sans-serif;
   }
 
   img {
-    width: 7rem;
-    height: 8rem;
+    width: 9rem;
+    height: 10rem;
     padding: 0rem 0.1rem 0 0.1rem;
     object-fit: cover;
   }
@@ -448,14 +446,49 @@ i:hover {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    bottom: -13rem;
+    bottom: -17rem;
     left: 9rem;
     gap: 1rem;
   }
 
   i {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: white;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  body {
+    height: 90vh;
+  }
+
+  .banner {
+    height: 5rem;
+  }
+
+  .banner p {
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .container {
+    margin-left: -36rem;
+    margin-top: -18rem;
+    padding:0rem;
+  }
+
+  .header {
+    margin-left: -25rem;
+    margin-top: 5rem;
   }
 
 }
