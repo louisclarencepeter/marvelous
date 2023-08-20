@@ -801,3 +801,9 @@ i:hover {
   }
 
 }
+
+@media screen and (min-width: 1910px) {
+  banner p {
+    font-size: 1rem;
+  }
+}
