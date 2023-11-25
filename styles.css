@@ -493,7 +493,7 @@ i:hover {
 @media screen and (min-width: 1024px) {
 
   body {
-    height: 95vh;
+    height: 110vh;
   }
 
   .banner {
@@ -516,6 +516,7 @@ i:hover {
     margin-left: -36rem;
     margin-top: -29rem;
     padding: 0rem;
+    height: 50vh;
   }
 
   .header {
@@ -544,33 +545,33 @@ i:hover {
 
   .card1 {
     transform: rotate(8deg);
-    top: 21rem;
+    top: 31rem;
     left: -7rem;
     z-index: 2;
   }
 
   .card2 {
     transform: rotate(-20deg);
-    top: 25rem;
+    top: 35rem;
     left: 7rem;
     z-index: 1;
   }
 
   .card3 {
     transform: rotate(-20deg);
-    top: 7rem;
+    top: 17rem;
     left: 6rem;
   }
 
   .card4 {
     transform: rotate(10deg);
-    top: 0rem;
+    top: 10rem;
     left: 20rem;
   }
 
   .card5 {
     transform: rotate(12deg);
-    top: 18rem;
+    top: 28rem;
     left: 21rem;
     z-index: 1;
   }
@@ -598,7 +599,7 @@ i:hover {
     justify-content: space-evenly;
     align-items: center;
     position: relative;
-    bottom: -20rem;
+    bottom: -8rem;
     left: 9rem;
     gap: 1rem;
   }
